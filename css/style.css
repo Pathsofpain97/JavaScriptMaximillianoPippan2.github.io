@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Beaufort for LOL", "NotoSans-Medium", serif;
+}
+
+body{
+    background-color: rgb(186, 106, 48);
+}
+
+#header1 {
+	background: transparent;
+	align-items: center;
+    height: 160px;
+	z-index: 90;
+}
+
+.offcanvas {
+    background-color: rgb(145, 30, 26);
+}
+
+.offcanvas-body {
+    background-color: rgb(255, 255, 255);
+}
+
+.offcanvas-body p{
+    font-size: 1.3em;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.menu li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #16dde3;
+    border-radius: 28px;
+    transition: 1.5s;
+}
+
+#sec1{
+    background-color: rgb(186, 106, 48);
+}
+
+#sec11{
+    background-color: rgb(186, 106, 48);
+    text-align: center;
+}
+
+#sec11 h1{
+    font-size: 4.5rem;
+    color: #e5e3e3;
+}
+
+#sec11 p{
+    font-size: 3rem;
+    margin: 2rem;
+    color: #e5e3e3;
+}
+
+.btn{
+	font-size: 2.6em;
+}
+
+#sec11 .btn{
+    border-radius: 30px;
+    background-color: rgb(252, 207, 7);
+    color: #000000;
+    transition: 3s;
+}
+
+#sec11 .btn:hover{
+    border-radius: 30px;
+    background-color: rgb(224, 19, 19);
+    color: rgb(255, 255, 255);
+    transition: 3s;
+}
+
+
